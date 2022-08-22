@@ -6,12 +6,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { RodapeComponent } from './rodape/rodape.component';
+import { FoneComponent } from './fone/fone.component';
+import { AcessoriosComponent } from './acessorios/acessorios.component';
+import { OutroComponent } from './outro/outro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
-    RodapeComponent
+    RodapeComponent,
+    FoneComponent,
+    AcessoriosComponent,
+    OutroComponent
   ],
   imports: [
     BrowserModule,
