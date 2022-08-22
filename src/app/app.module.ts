@@ -9,6 +9,7 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { FoneComponent } from './fone/fone.component';
 import { AcessoriosComponent } from './acessorios/acessorios.component';
 import { OutroComponent } from './outro/outro.component';
+import { InicioComponent } from './inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { OutroComponent } from './outro/outro.component';
     RodapeComponent,
     FoneComponent,
     AcessoriosComponent,
-    OutroComponent
+    OutroComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,
