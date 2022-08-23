@@ -10,6 +10,7 @@ import { FoneComponent } from './fone/fone.component';
 import { AcessoriosComponent } from './acessorios/acessorios.component';
 import { OutroComponent } from './outro/outro.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InicioComponent } from './inicio/inicio.component';
     FoneComponent,
     AcessoriosComponent,
     OutroComponent,
-    InicioComponent
+    InicioComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,4 @@
+import { ContatoComponent } from './contato/contato.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { OutroComponent } from './outro/outro.component';
 import { FoneComponent } from './fone/fone.component';
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path:'inicio', component: InicioComponent},
   {path: 'acessorios', component: AcessoriosComponent},
   {path: 'fone', component: FoneComponent},
-  {path: 'outro', component: OutroComponent}
+  {path: 'outro', component: OutroComponent},
+  {path: 'contato', component: ContatoComponent}
 ];
 
 @NgModule({
